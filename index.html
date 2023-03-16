@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Css/bootstrap.min.css">
+    <link rel="stylesheet" href="Css/bootstrap.min.css">
+    <link rel="stylesheet" href="Css/style.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg bg-dark w-100  position-relative">
+    <div class="container">
+      <div class="display d-flex   ">
+        <div class="logo d-flex  ">
+          <a class="navbar-brand" href="#">
+            <img src="imgs/logo.png" alt="logo">
+          </a>
+          <div class="det ">
+            <h5 class="text-white ">Weather <br> <small class="text-secondary ">tagline goes here</small></h5>
+            
+          </div>
+       
+        </div>
+       
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse  position-absolute start-50  " id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item ">
+              <a class="nav-link active bg-transparent px-5 " aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link ps-5 text-white border-5" href="#">News</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link ps-5 text-white" href="#">Live Cameras</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link ps-5 text-white" href="#">Photos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link ps-5 text-white" href="#">contact</a>
+            </li>
+           
+          </ul>
+        
+        </div>
+      </div>
+      
+    </div>
+  </nav>
+
+  <div class="bak bg-danger ">
+  <div class="container">
+   <form class="d-flex  py-5"  role="search">
+        <input class="form-control me-2 position-relative rounded-pill p-3 bg-dark btn-outline-dark" id="search" type="search" placeholder="Find your Location..." >
+        <button class="btn btn-outline-dark position-absolute rounded-pill px-4 text-center text-white bg-primary "  type="submit">Find</button>
+      </form> 
+  </div>
+  
+</div>
+<div class="cards  m-auto">
+  <div class="container px-5">
+    <div class="row d-flex flex-wrap justify-content-between w-100 " >
+      <div class="col-md-4">
+        <div class="today card w-100 border-1 rounded-3">
+          <div class="header" id="today">
+            <div class="day float-start text-white" id="day"></div>
+            <div class="date float-end text-white" id="datet"></div>
+          </div>
+          <div class="content text-start">
+            <div class="location  " id="location"></div>
+            <div class="degree text-white">
+              <h2 class="num ms-3 d-lg-inline-block " id="degree"></h2>
+               <h2 class="d-inline-block num"><sup>o</sup>c</h2> 
+            
+              <div class="icon d-inline-block" >
+                <img src="imgs/114.png " id="icon"alt="icon">
+              </div>
+
+            </div>
+            <p class="custom" id="custom"></p>
+            <div class="weather-details">
+          <img src="imgs/icon-umberella.png" alt="humidity">
+            <span id="humidity"></span><span>%</span>
+            <img src="imgs/icon-wind.png" alt="wind">
+            <span id="wind"></span><span>km/h</span>
+            <img src="imgs/icon-compass.png" alt="compass">
+            <span id="compass"></span>
+            </div>
+          
+           
+            
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 m-auto">
+        <div class=" card2 card  bg-dark">
+          <div class="header">
+            <p class=" text-center  text-white otherDay" ></p>
+            
+          </div>
+          <div class="content ">
+            
+            <div class="degree text-white">
+              <img  class="otherday-icon">
+             
+              <div class="num ms-3  " > 
+                <h2 class="d-inline-block max-degree"></h2>
+                <h2 class="d-inline-block ">
+                  <sup>o</sup> c
+                </h2>
+                <br>
+                <h2 class="d-inline-block min-degree"></h2>
+                <small class="d-inline-block ">
+                  <sup>o</sup> c
+                </small>
+               
+              </div>
+              
+
+            </div>
+           
+            <div class="custom otherday-custom"></div>
+           
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 m-auto">
+        <div class=" card3 card  ">
+          <div class="header">
+            <p class="day text-center  text-white otherDay" ></p>
+            
+          </div>
+          <div class="content ">
+            
+            <div class="degree text-white">
+              <img  class="otherday-icon">
+             
+              <div class="num ms-3  " > 
+                <h2 class="d-inline-block max-degree"></h2>
+                <h2 class="d-inline-block ">
+                  <sup>o</sup> c
+                </h2>
+                <br>
+                <h2 class="d-inline-block min-degree"></h2>
+                <small class="d-inline-block ">
+                  <sup>o</sup> c
+                </small>
+               
+              </div>
+              
+
+            </div>
+           
+            <div class="custom otherday-custom"></div>
+           
+          </div>
+        </div>
+      </div>
+    
+    </div>
+  </div>
+</div>
+
+
+    <script src="Js/bootstrap.bundle.min.js"></script>
+    <script src="Js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,137 @@
+body {
+    color: #bfc1c8;
+    font-family: "Roboto", "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.5;
+    background: #1e202b;
+}
+
+
+
+
+.active{
+    border: 0.2px solid blue;
+    border-radius: 30px;
+   
+}
+.navbar{
+    height: 120px;
+}
+.bak{
+    background-image: url(../imgs/banner.png);
+    background-position: center center;
+    background-size: cover;
+    height: 50vh;
+}
+.btn{
+    top:178px;
+    left: 83%;
+   
+  
+}
+.row{
+    border-radius: 10px;
+    margin-top: -150px;
+    margin-bottom: 50px;
+}
+
+
+.today .header:after{
+    
+        content: " ";
+        clear: both;
+        display: block;
+        overflow: hidden;
+        height: 0;
+    
+
+}
+
+
+.card .content{
+    padding: 40px 20px 10px;
+    text-align: center;
+}
+.today .content{
+    
+        text-align: left;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    
+}
+
+.card .today .location{
+    font-size: 1.2857142857em;
+    font-weight: 400;
+}
+.card .content .degree{
+    font-size: 1.7142857143em;
+    color: white;
+    font-weight: 700;
+}
+ .today .content .degree .num{
+    font-size: 3rem;
+
+    display: inline-block;
+    vertical-align: middle;
+}
+sup {
+    top: -0.5em;
+}
+sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+}
+.card .today .degree .icon{
+    display: inline-block;
+    vertical-align: middle;
+}
+.card .content .icon{
+    margin-bottom: 20px;
+}
+.card .icon{
+    height: 50px;
+}
+img{
+    border: 0;
+}
+.custom{
+    color: #009ad8;
+    margin: 20px 0;
+}
+ .today span{
+    margin-right: 10px;
+}
+ .card {
+    background-color: #262936;
+}
+.card3{
+    background-color: #262936;
+}
+.today .header{
+    background: rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: center;
+    font-weight: 400;
+}
+.card2 .header,.card3 .header{
+    background: rgba(0, 0, 0, 0.1);
+    padding: 2px;
+    text-align: center;
+    font-weight: 400;
+    padding-top: 7px;
+  
+}
+ .card3 .content, .card2 .content{
+    padding: 10px 20px 10px;
+    text-align: center;
+}
+ .card2 .content .num  .min-degree,.card3 .content .num  .min-degree{
+     font-size: 0.7em;
+ }
+
+
+
