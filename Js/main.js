@@ -24,7 +24,7 @@ let date;
 let months =["Jan", "Feb", "March", "April", "May", "June", "July", "Aug", "Sept",  "Oct",  "Nov",  "Dec"];
 let Days=["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
 async function checkDayWeather(currentArea){
-    response = await fetch( `http://api.weatherapi.com/v1/forecast.json?key=da9d900d3e3a4f229c530034220706&q=${currentArea}07112&days=3`);
+    response = await fetch( `https://api.weatherapi.com/v1/forecast.json?key=da9d900d3e3a4f229c530034220706&q=${currentArea}07112&days=3`);
     details=await response.json();
     displayDayWeather();
     getOtherDays();
